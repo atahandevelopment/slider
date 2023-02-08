@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carouselImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  max-width: 100%;
+  color: black;
+  margin: 0;
+  font-size: 4em;
+}
+
+.carousel > .thumbs-wrapper > .thumbs > .thumb {
+    height: 50px;
+    background-size: cover;
+}
+.carousel-root > .slider-wrapper > .slider > .slide > img {
+    background-size: cover;
+}
+
+.carousel .thumbs {
+    margin-top: 0;
+}
+.carousel .thumbs-wrapper {
+    margin-top:0;
+}
